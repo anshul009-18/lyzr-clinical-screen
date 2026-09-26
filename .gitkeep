@@ -1,0 +1,11 @@
+agents/protocol_criteria_agent/.gitkeep
+agents/phi_scrubbing_agent/.gitkeep
+agents/screening_agent/.gitkeep
+agents/medical_safety_agent/.gitkeep
+agents/regulatory_audit_agent/.gitkeep
+backend/app/api/.gitkeep
+backend/app/services/.gitkeep
+backend/app/models/.gitkeep
+backend/app/db/.gitkeep
+backend/tests/.gitkeep
+frontend/.gitkeep

@@ -1,0 +1,12 @@
+# Screening Agent — deterministic, NOT an LLM agent.
+# No Lyzr Agent API call happens here by design (cross-phase principle:
+# "Determinism over vibes" — eligibility is rule evaluation, never a raw
+# LLM judgment call). This file documents that intentionally, so nobody
+# later "fixes" the missing prompt/model config.
+agent_type: deterministic_rule_engine
+model: none
+temperature: n/a
+inputs:
+  - scrubbed_patient_record # dict, PHI-nulled (agents/orchestration/state.py)
+  - extracted_criteria # ExtractedCriteria (agents/orchestration/state.py)
+output: ScreeningResult # agents/orchestration/state.py

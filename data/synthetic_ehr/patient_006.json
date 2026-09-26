@@ -1,0 +1,25 @@
+{
+  "patient_id": "SYN-0006",
+  "name": "Mrs. Jennifer Morgan",
+  "dob": "1988-02-22",
+  "mrn": "MRN-903529",
+  "address": "87262 Ford Well, South Lindseyside, CT 07131",
+  "phone": "+1-880-213-2677x3602",
+  "email": "ybaker@example.com",
+  "age": 38,
+  "sex": "female",
+  "labs": {
+    "eGFR": 108.9,
+    "HbA1c": 10.7
+  },
+  "conditions": [
+    "Hyperlipidemia",
+    "Hypertension",
+    "Chronic Kidney Disease Stage 2"
+  ],
+  "medications": [
+    "Lisinopril"
+  ],
+  "pregnant": false,
+  "last_glp1_dose_days_ago": 3
+}

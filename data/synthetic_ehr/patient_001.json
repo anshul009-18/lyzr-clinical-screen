@@ -1,0 +1,25 @@
+{
+  "patient_id": "SYN-0001",
+  "name": "Donald Walker",
+  "dob": "1986-01-02",
+  "mrn": "MRN-772246",
+  "address": "600 Jeffery Parkways, New Jamesside, MT 29394",
+  "phone": "394.802.6542x351",
+  "email": "howardmaurice@example.com",
+  "age": 40,
+  "sex": "male",
+  "labs": {
+    "eGFR": 83.0,
+    "HbA1c": 6.1
+  },
+  "conditions": [
+    "Type 2 Diabetes Mellitus",
+    "Obesity",
+    "Hyperlipidemia"
+  ],
+  "medications": [
+    "Metformin"
+  ],
+  "pregnant": false,
+  "last_glp1_dose_days_ago": 14
+}

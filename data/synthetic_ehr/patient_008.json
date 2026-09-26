@@ -1,0 +1,21 @@
+{
+  "patient_id": "SYN-0008",
+  "name": "Matthew Bryant",
+  "dob": "1962-06-16",
+  "mrn": "MRN-974146",
+  "address": "79911 William Curve, Nicolebury, MN 37854",
+  "phone": "(378)449-8084",
+  "email": "darrell18@example.org",
+  "age": 64,
+  "sex": "female",
+  "labs": {
+    "eGFR": 109.2,
+    "HbA1c": 9.5
+  },
+  "conditions": [
+    "Hypertension"
+  ],
+  "medications": [],
+  "pregnant": false,
+  "last_glp1_dose_days_ago": null
+}

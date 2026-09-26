@@ -1,0 +1,10 @@
+# Regulatory Audit Agent — deterministic templating, NOT an LLM agent.
+# Builds the dossier straight from PipelineState. No summarization of
+# the decision trail happens anywhere in this agent — the dossier IS
+# the trail, line-for-line traceable to a CriterionEvaluation.
+agent_type: deterministic_dossier_template
+model: none
+temperature: n/a
+inputs:
+  - PipelineState # agents/orchestration/state.py
+output: AuditDossier # backend/app/models/audit_dossier.py — exported as JSON + PDF

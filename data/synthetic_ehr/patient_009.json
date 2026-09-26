@@ -1,0 +1,23 @@
+{
+  "patient_id": "SYN-0009",
+  "name": "Michelle Harris",
+  "dob": "1962-11-18",
+  "mrn": "MRN-665046",
+  "address": "0164 Adam Trail Apt. 427, Hoffmanville, CA 91074",
+  "phone": "(280)659-8262",
+  "email": "rachel05@example.org",
+  "age": 64,
+  "sex": "female",
+  "labs": {
+    "eGFR": 95.4,
+    "HbA1c": 8.2
+  },
+  "conditions": [
+    "Chronic Kidney Disease Stage 2"
+  ],
+  "medications": [
+    "GLP-1 Receptor Agonist"
+  ],
+  "pregnant": false,
+  "last_glp1_dose_days_ago": 3
+}

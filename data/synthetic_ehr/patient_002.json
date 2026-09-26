@@ -1,0 +1,25 @@
+{
+  "patient_id": "SYN-0002",
+  "name": "Kimberly Dudley",
+  "dob": "1996-07-27",
+  "mrn": "MRN-396922",
+  "address": "959 Janet Cape Apt. 413, South Joshuastad, GA 49021",
+  "phone": "(534)719-2832x764",
+  "email": "perezantonio@example.com",
+  "age": 30,
+  "sex": "male",
+  "labs": {
+    "eGFR": 37.2,
+    "HbA1c": 7.2
+  },
+  "conditions": [
+    "Obesity",
+    "Chronic Kidney Disease Stage 2",
+    "Type 2 Diabetes Mellitus"
+  ],
+  "medications": [
+    "Insulin Glargine"
+  ],
+  "pregnant": false,
+  "last_glp1_dose_days_ago": null
+}

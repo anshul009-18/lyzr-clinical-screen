@@ -1,0 +1,23 @@
+{
+  "patient_id": "SYN-0010",
+  "name": "Heather Castro",
+  "dob": "1988-09-10",
+  "mrn": "MRN-917202",
+  "address": "22602 Patton Loop, West Erik, UT 14669",
+  "phone": "(707)633-7543x3036",
+  "email": "rasmussenjoshua@example.net",
+  "age": 38,
+  "sex": "female",
+  "labs": {
+    "eGFR": 45.7,
+    "HbA1c": 6.8
+  },
+  "conditions": [
+    "Chronic Kidney Disease Stage 2",
+    "Hyperlipidemia",
+    "Type 2 Diabetes Mellitus"
+  ],
+  "medications": [],
+  "pregnant": false,
+  "last_glp1_dose_days_ago": null
+}

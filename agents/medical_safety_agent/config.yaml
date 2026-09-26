@@ -1,0 +1,18 @@
+# Medical Safety Agent — deterministic ontology cross-check, NOT an LLM agent.
+# Same "determinism over vibes" principle as screening_agent: a code
+# lookup table, not a model call. Exists to catch terminology variants
+# the Screening Agent's plain substring matching would silently miss.
+agent_type: deterministic_ontology_validator
+model: none
+temperature: n/a
+ontologies_referenced:
+  - SNOMED-CT   # conditions
+  - ICD-10      # conditions (cross-ref)
+  - LOINC       # lab tests (eGFR, HbA1c)
+note: >
+  Medication terms are checked against a small curated reference list in
+  this validator (RxNorm-style), not a formal ontology — SNOMED/ICD-10/LOINC
+  don't natively cover drug nomenclature. Flagged explicitly as such below.
+inputs:
+  - scrubbed_patient_record   # dict (agents/orchestration/state.py)
+output: (flagged: bool, reason: str | None)   # matches pipeline.py::run_medical_safety

@@ -1,0 +1,23 @@
+{
+  "patient_id": "SYN-0004",
+  "name": "Patricia Peterson",
+  "dob": "2001-06-18",
+  "mrn": "MRN-307757",
+  "address": "48281 Skinner Parkways Apt. 252, New Mariotown, DE 48077",
+  "phone": "430-639-1171x8227",
+  "email": "ibrandt@example.net",
+  "age": 25,
+  "sex": "male",
+  "labs": {
+    "eGFR": 42.0,
+    "HbA1c": 6.5
+  },
+  "conditions": [
+    "Chronic Kidney Disease Stage 2",
+    "Type 2 Diabetes Mellitus",
+    "Hypertension"
+  ],
+  "medications": [],
+  "pregnant": false,
+  "last_glp1_dose_days_ago": 14
+}

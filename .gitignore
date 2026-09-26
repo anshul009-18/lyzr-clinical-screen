@@ -1,0 +1,11 @@
+# .gitignore
+.DS_Store
+__pycache__/
+*.pyc
+.env
+venv/
+node_modules/
+backend/app/db/pipeline.db
+frontend/dist/
+.pytest_cache/
+data/audit_dossiers/

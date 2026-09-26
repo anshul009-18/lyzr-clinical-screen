@@ -1,0 +1,26 @@
+{
+  "patient_id": "SYN-0005",
+  "name": "Jennifer Powers",
+  "dob": "1989-03-08",
+  "mrn": "MRN-391559",
+  "address": "33150 Brianna Avenue Apt. 031, Port Markhaven, IA 37001",
+  "phone": "+1-873-782-9973x76311",
+  "email": "ujenkins@example.org",
+  "age": 37,
+  "sex": "female",
+  "labs": {
+    "eGFR": 76.4,
+    "HbA1c": 10.6
+  },
+  "conditions": [
+    "Hypertension",
+    "Type 2 Diabetes Mellitus",
+    "Chronic Kidney Disease Stage 2"
+  ],
+  "medications": [
+    "Lisinopril",
+    "Atorvastatin"
+  ],
+  "pregnant": false,
+  "last_glp1_dose_days_ago": null
+}
