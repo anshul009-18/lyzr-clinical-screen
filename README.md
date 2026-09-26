@@ -103,37 +103,38 @@ flowchart TD
 
 ## Repo structure
 
+```
 lyzr-clinical-screen/
 ├── agents/
-│ ├── protocol_criteria_agent/ # extracts inclusion/exclusion rules
-│ ├── phi_scrubbing_agent/ # Safe AI redaction + verification gate
-│ ├── screening_agent/ # deterministic eligibility matcher
-│ ├── medical_safety_agent/ # ontology cross-checks
-│ ├── regulatory_audit_agent/ # dossier generation
-│ └── orchestration/ # pipeline wiring + shared state
+│   ├── protocol_criteria_agent/     # extracts inclusion/exclusion rules
+│   ├── phi_scrubbing_agent/         # Safe AI redaction + verification gate
+│   ├── screening_agent/             # deterministic eligibility matcher
+│   ├── medical_safety_agent/        # ontology cross-checks
+│   ├── regulatory_audit_agent/      # dossier generation
+│   └── orchestration/               # pipeline wiring + shared state
 ├── backend/
-│ ├── app/
-│ │ ├── main.py
-│ │ ├── api/ # ingest, screen, audit, hitl, aims
-│ │ ├── services/ # lyzr_client, ingestion, aims_stream,
-│ │ │ # hitl_webhook, fhir_converter
-│ │ ├── models/
-│ │ └── db/ # SQLite storage
-│ └── tests/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── api/                     # ingest, screen, audit, hitl, aims
+│   │   ├── services/                # lyzr_client, ingestion, aims_stream,
+│   │   │                            # hitl_webhook, fhir_converter
+│   │   ├── models/
+│   │   └── db/                      # SQLite storage
+│   └── tests/
 ├── frontend/
-│ └── src/
-│ ├── pages/ # Upload, ScreeningResults, AuditDossier, AimsDashboard
-│ └── api/ # backend client
+│   └── src/
+│       ├── pages/                   # Upload, ScreeningResults, AuditDossier, AimsDashboard
+│       └── api/                     # backend client
 ├── data/
-│ ├── sample_protocols/
-│ ├── synthetic_ehr/
-│ ├── synthetic_ehr_fhir/
-│ └── audit_dossiers/
-├── Dockerfile # backend
-├── frontend/Dockerfile # frontend (nginx)
+│   ├── sample_protocols/
+│   ├── synthetic_ehr/
+│   ├── synthetic_ehr_fhir/
+│   └── audit_dossiers/
+├── Dockerfile                       # backend
+├── frontend/Dockerfile              # frontend (nginx)
 ├── docker-compose.yml
 └── .env.example
-
+```
 ---
 
 ## Running it
